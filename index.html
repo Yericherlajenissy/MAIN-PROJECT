@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice to Video Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Voice to Video Generator</h1>
+        <button id="start-recording">Start Recording</button>
+        <button id="stop-recording" disabled>Stop Recording</button>
+        
+        <audio id="audio-playback" controls></audio>
+        <div id="loading-message" style="display:none;">Processing, please wait...</div>
+        <video id="video-output" controls></video>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
